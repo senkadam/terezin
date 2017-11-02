@@ -132,7 +132,7 @@ fieldset {
 /*END PRELOADER DESIGN*/
 /*START SCROLL TO TOP*/
 .topcontrol {
-    background: #FF0000 none repeat scroll 0 0;
+    background: #FFE11A none repeat scroll 0 0;
     border-radius: 50px;
     bottom: 5px;
     box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
@@ -193,7 +193,7 @@ fieldset {
 }
 
 .section-title span {
-    background: #FF0000 none repeat scroll 0 0;
+    background: #ffe11a none repeat scroll 0 0;
     display: block;
     height: 2px;
     margin: 15px auto;
@@ -262,14 +262,14 @@ fieldset {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #FF0000 !important;
+    color: #FFE11A !important;
     background-color: transparent;
 }
 
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-    color: #FF0000 !important;
+    color: #FFE11A !important;
     background-color: transparent;
 }
 
@@ -299,7 +299,7 @@ fieldset {
 }
 
 .menu-top li a:hover {
-    color: #FF0000 !important
+    color: #FFE11A !important
 }
 
 @media only screen and (max-width: 768px) {
@@ -338,7 +338,7 @@ fieldset {
 }
 
 .navbar-default.menu-shrink li a:hover {
-    color: #FF0000 !important
+    color: #FFE11A !important
 }
 
 .navbar-default .navbar-toggle {
@@ -351,7 +351,7 @@ fieldset {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #FF0000
+    background-color: #FFE11A
 }
 
 /*
@@ -542,7 +542,7 @@ fieldset {
 }
 
 .single-slide-item h2 {
-    color: #FF0000;
+    color: #FFE11A;
     font-size: 55px;
     margin-top: 0;
     text-transform: uppercase;
@@ -705,8 +705,8 @@ video {
 }
 
 .about_single i {
-    background: #FF0000;
-    border: 2px solid #FF0000;
+    background: #FFE11A;
+    border: 2px solid #FFE11A;
     border-radius: 100px;
     color: #fff;
     font-size: 26px;
@@ -720,13 +720,13 @@ video {
 }
 
 .about_single:hover i {
-    color: #FF0000;
+    color: #FFE11A;
     background: none;
-    border: 2px solid #FF0000;
+    border: 2px solid #FFE11A;
 }
 
 .about_single span {
-    background: #FF0000 none repeat scroll 0 0;
+    background: #FFE11A none repeat scroll 0 0;
     display: block;
     height: 2px;
     margin: 15px auto 0;
@@ -744,7 +744,7 @@ video {
 }
 
 .about_single:hover h4 {
-    color: #FF0000
+    color: #FFE11A
 }
 
 @media only screen and (max-width: 480px) {
@@ -826,7 +826,7 @@ video {
 }
 
 .single_feature i {
-    background: #FF0000 none repeat scroll 0 0;
+    background: #FFE11A none repeat scroll 0 0;
 
     border-radius: 30px;
     box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
@@ -846,7 +846,7 @@ video {
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     text-transform: uppercase;
-    color: #FF0000;
+    color: #FFE11A;
 }
 
 .single_feature p {
@@ -860,11 +860,11 @@ video {
     -webkit-filter: grayscale(0);
     box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
     background: #fff;
-    color: #FF0000;
+    color: #FFE11A;
 }
 
 .single_feature:hover h4 {
-    color: #FF0000
+    color: #FFE11A
 }
 
 .single_feature:hover p {
@@ -938,13 +938,13 @@ video {
 }
 
 .service:hover {
-    background: #FF0000;
-    border: 2px solid #FF0000;
+    background: #FFE11A;
+    border: 2px solid #FFE11A;
 }
 
 .service:hover .icon {
     top: -10px;
-    color: #FF0000;
+    color: #FFE11A;
 }
 
 .service:hover h4 {
@@ -1014,8 +1014,8 @@ video {
 
 .our_work_menu ul li:hover,
 .our_work_menu ul li.active {
-    background: #FF0000 none repeat scroll 0 0;
-    border-color: #FF0000;
+    background: #FFE11A none repeat scroll 0 0;
+    border-color: #FFE11A;
     color: #fff;
 }
 
@@ -1102,7 +1102,7 @@ video {
 }
 
 .sing_link_img a:hover {
-    background: #FF0000;
+    background: #FFE11A;
     color: #fff;
 }
 
@@ -1121,7 +1121,7 @@ video {
 }
 
 .single_our_work:hover {
-    background: #FF0000;
+    background: #FFE11A;
     color: #fff;
 }
 
@@ -1137,7 +1137,7 @@ video {
 }
 
 .btn-portfolio-bg {
-    background: #FF0000 none repeat scroll 0 0;
+    background: #FFE11A none repeat scroll 0 0;
     border-radius: 0;
     color: #fff;
     font-size: 14px;
@@ -1194,12 +1194,12 @@ video {
 }
 
 .carousel-indicators li {
-    border: 1px solid #FF0000;
+    border: 1px solid #FFE11A;
     border-radius: 12px;
     height: 12px;
     margin: 0 1px;
     width: 12px;
-    background: #FF0000;
+    background: #FFE11A;
 }
 
 .carousel-indicators .active {
@@ -1248,8 +1248,8 @@ video {
 }
 
 .counter i {
-    background: #FF0000 none repeat scroll 0 0;
-    border: 2px solid #FF0000;
+    background: #FFE11A none repeat scroll 0 0;
+    border: 2px solid #FFE11A;
     border-radius: 100px;
     color: #fff;
     font-size: 30px;
@@ -1282,8 +1282,8 @@ video {
 
 .counter:hover i {
     background: none;
-    color: #FF0000;
-    border: 2px solid #FF0000
+    color: #FFE11A;
+    border: 2px solid #FFE11A
 }
 
 /*
@@ -1387,7 +1387,7 @@ video {
 }
 
 .social > li:after {
-    background: #FF0000 none repeat scroll 0 0;
+    background: #FFE11A none repeat scroll 0 0;
     content: "";
     height: 2px;
     position: absolute;
@@ -1423,11 +1423,11 @@ video {
 .team_text ul.social li a i:hover {
     color: #fff;
     border-color: #e8e8e9;
-    background: #FF0000;
+    background: #FFE11A;
 }
 
 .social > li:hover:after {
-    background: #FF0000
+    background: #FFE11A
 }
 
 .facebook {
@@ -1504,7 +1504,7 @@ video {
 }
 
 .progress-bar > span {
-    background: #FF0000 none repeat scroll 0 0;
+    background: #FFE11A none repeat scroll 0 0;
     display: block;
     height: 100%;
     width: 0;
@@ -1526,7 +1526,7 @@ video {
 }
 
 .pricing-table-default:hover {
-    background: #FF0000;
+    background: #FFE11A;
 }
 
 @media (max-width: 480px) {
@@ -1555,7 +1555,7 @@ video {
     display: inline-block;
     line-height: 15px;
     color: #ffffff;
-    background-color: #FF0000;
+    background-color: #FFE11A;
     border-radius: 50%;
     width: 100px;
     height: 100px;
@@ -1563,7 +1563,7 @@ video {
 }
 
 .pricing-table-default:hover .price {
-    color: #FF0000;
+    color: #FFE11A;
     background-color: #ffffff;
 }
 
@@ -1602,7 +1602,7 @@ video {
 }
 
 .pricing-table-default:hover .btn {
-    color: #FF0000;
+    color: #FFE11A;
     background-color: #ffffff
 }
 
@@ -1642,11 +1642,11 @@ video {
 }
 
 .blog-text i {
-    color: #FF0000
+    color: #FFE11A
 }
 
 .blog-text span {
-    color: #FF0000;
+    color: #FFE11A;
     text-transform: uppercase;
     margin-right: 15px;
 }
@@ -1668,7 +1668,7 @@ video {
 }
 
 .btn-blog-bg:hover {
-    color: #FF0000;
+    color: #FFE11A;
 }
 
 /*
@@ -1717,14 +1717,14 @@ video {
 
 .form-control:focus {
     color: #333;
-    border: 1px solid #FF0000;
+    border: 1px solid #FFE11A;
     background: none;
     box-shadow: none;
     outline: 0 none;
 }
 
 .btn-contact-bg {
-    background: #FF0000 none repeat scroll 0 0;
+    background: #FFE11A none repeat scroll 0 0;
     border-radius: 0;
     color: #fff;
     font-family: montserrat, sans-serif;
@@ -1758,7 +1758,7 @@ video {
 * ----------------------------------------------------------------------------------------
 */
 .contact-address {
-    background: #FF0000 none repeat scroll 0 0;
+    background: #FFE11A none repeat scroll 0 0;
     padding: 50px 0;
 }
 
@@ -1921,7 +1921,7 @@ video {
 }
 
 .copyright a {
-    color: #FF0000;
+    color: #FFE11A;
     font-family: "Cousine", sans-serif;
     -webkit-transition: all 0.2s ease 0s;
     transition: all 0.2s ease 0s;
