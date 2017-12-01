@@ -54,14 +54,15 @@ h6 {
 }
 
 a {
-    font-family: "Montserrat", sans-serif;
+    color:#fb6107;
     text-decoration: none;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
 }
 
 a:hover {
-    text-decoration: none;
+    color: #ca2b12;
+    text-decoration: underline;
 }
 
 a:focus {
@@ -122,6 +123,13 @@ fieldset {
 .status-mes h4 {
     color: #333;
     margin-top: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.status-mes h3 {
+    color: #777;
+
     text-transform: uppercase;
 }
 
@@ -161,12 +169,20 @@ fieldset {
     padding: 60px 0
 }
 
+.section-padding-20 {
+    padding: 20px 0
+}
+
+.section-padding-40 {
+    padding: 40px 0
+}
+
 /*START SECTION TITLE DESIGN*/
 .section-title {
     margin-bottom: 40px
 }
 
-.covers_list{
+.covers_list {
     margin-bottom: 40px;
     line-height: 30px;
 }
@@ -220,7 +236,6 @@ fieldset {
     background: #fff !important;
     position: relative;
 }
-
 
 .section-title-terezin-span {
     background: #fc9611 !important;
@@ -299,7 +314,7 @@ fieldset {
 .menu-top li a {
     color: #fff !important;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
 }
 
@@ -412,7 +427,6 @@ fieldset {
     z-index: 1;
 }
 
-
 .single-slide-item_b {
     position: relative;
     z-index: 1;
@@ -433,10 +447,8 @@ fieldset {
     z-index: 1;
 }
 
-
-
 .slide-1 {
-    background: url(../img/terezin/selected/1.JPG) scroll 0 0;
+    background: url(../img/terezin/terezinBAW2.jpg) scroll 0 0;
     background-size: cover;
 }
 
@@ -507,13 +519,23 @@ fieldset {
         width: 100%
     }
 
-    .single-slide-item h1 {    font-size: 30px;  }
-    .single-slide-item h2 { font-size: 35px;}
+    .single-slide-item h1 {
+        font-size: 30px;
+    }
+
+    .single-slide-item h2 {
+        font-size: 35px;
+    }
 }
 
 @media only screen and (max-width: 360px) {
-    .single-slide-item h1 {    font-size: 20px;  }
-    .single-slide-item h2 { font-size: 24px;}
+    .single-slide-item h1 {
+        font-size: 20px;
+    }
+
+    .single-slide-item h2 {
+        font-size: 24px;
+    }
 }
 
 .carousel-indicators-slider {
@@ -532,7 +554,6 @@ fieldset {
     -webkit-transition: all 0.2s ease 0s;
     transition: all 0.2s ease 0s;
 }
-
 
 .btn-home-bg:hover,
 .btn-home-bg:focus {
@@ -643,6 +664,7 @@ video {
 .about_single {
     -webkit-transition: all 0.2s ease 0s;
     transition: all 0.2s ease 0s;
+    margin-top: 40px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -682,7 +704,7 @@ video {
 }
 
 .about_single h4 {
-    font-weight: 600;
+    font-weight: 700;
     margin-top: 10px;
     color: #333;
     text-transform: uppercase;
@@ -690,6 +712,14 @@ video {
     transition: all 0.2s ease 0s;
 }
 
+
+.about_single p {
+    font-weight: 500;
+    color: #666;
+    font-size:17px;
+    -webkit-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
 .about_single:hover h4 {
     color: #fb6107
 }
@@ -722,16 +752,16 @@ video {
     padding: 70px 20px;
     position: relative;
     margin: 10px;
-/*-webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;*/
+    /*-webkit-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;*/
 }
-
 
 .single_feature_color_a {
     background-image: url('../img/terezin/selected/1.JPG');
     background-size: cover;
     background-position: center center;
 }
+
 .single_feature_color_b {
     background-image: url('../img/terezin/selected/2.JPG');
     background-size: cover;
@@ -743,31 +773,37 @@ video {
     background-size: cover;
     background-position: center center;
 }
+
 .single_feature_color_d {
     background-image: url('../img/terezin/selected/4.JPG');
     background-size: cover;
     background-position: center center;
 }
+
 .single_feature_color_e {
     background-image: url('../img/terezin/selected/5.JPG');
     background-size: cover;
     background-position: center center;
 }
+
 .single_feature_color_f {
     background-image: url('../img/terezin/selected/6.JPG');
     background-size: cover;
     background-position: center center;
 }
+
 .single_feature_color_g {
     background-image: url('../img/terezin/selected/7.JPG');
     background-size: cover;
     background-position: center center;
 }
+
 .single_feature_color_h {
     background-image: url('../img/terezin/selected/8.JPG');
     background-size: cover;
     background-position: center center;
 }
+
 .single_feature_color_one {
     background-image: url('../img/covers/memorial.jpg');
     background-size: auto;
@@ -787,21 +823,41 @@ video {
     background: #e3e3e3;
 }
 
-.single_feature i {
-    background: #fb6107 none repeat scroll 0 0;
 
-    border-radius: 30px;
-    box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
-    color: #fff;
-    font-size: 18px;
-    height: 55px;
-    line-height: 55px;
-    margin-bottom: 20px;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    width: 55px;
+
+.single_feature_color_a:hover {
+    z-index: 10;
+    opacity: 0.6;
 }
 
+.single_feature_color_b:hover {
+    z-index: 10;
+    opacity: 0.6;
+}
+.single_feature_color_c:hover {
+    z-index: 10;
+    opacity: 0.6;
+}
+.single_feature_color_d:hover {
+    z-index: 10;
+    opacity: 0.6;
+}
+.single_feature_color_e:hover {
+    z-index: 10;
+    opacity: 0.6;
+}
+.single_feature_color_f:hover {
+    z-index: 10;
+    opacity: 0.6;
+}
+.single_feature_color_g:hover {
+    z-index: 10;
+    opacity: 0.6;
+}
+.single_feature_color_h:hover {
+    z-index: 10;
+    opacity: 0.6;
+}
 .single_feature h4 {
     font-size: 16px;
     margin-top: 0;
@@ -1127,6 +1183,14 @@ video {
  * 08.START TESTIMONIAL DESIGN
  * ----------------------------------------------------------------------------------------
  */
+
+#testimonial {
+    background-image: url('../img/terezin/t/P1250899.JPG');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
 .single_testimonial {
     background: #f2f2f2 none repeat scroll 0 0;
     padding: 30px;
@@ -1156,18 +1220,18 @@ video {
 }
 
 .carousel-indicators li {
-    border: 1px solid #fb6107;
+    border: 1px solid #ffffff;
     border-radius: 12px;
     height: 12px;
     margin: 0 1px;
     width: 12px;
-    background: #fb6107;
+    background: #ffffff;
 }
 
 .carousel-indicators .active {
     margin: 0 1px;
-    background: black;
-    border: 1px solid #000000;
+    background: #fb6107;
+    border: 1px solid #fb6107;
 }
 
 .site-wrapper {
@@ -1801,7 +1865,7 @@ video {
     text-decoration: underline;
 }
 
-.footer_social_a:hover{
+.footer_social_a:hover {
     color: #fff;
     text-decoration: underline;
     font-weight: bold;
@@ -1876,10 +1940,10 @@ video {
 /*END FOOTER SOCIAL DESIGN*/
 .copyright p {
     border-top: 1px solid #1f2428;
+    font-family: "Cousine", sans-serif;
     font-size: 14px;
     color: #eee;
     margin-bottom: 0;
-    padding: 30px 0;
 }
 
 .copyright a {
@@ -1906,14 +1970,18 @@ video {
 .margin-10 {
     margin: 10px
 }
+
 margin-top-20 {
     margin-top: 20px
 }
-
 
 @media only screen and (max-width: 767px) {
     .box {
         height: auto !important;
     }
+}
+
+.text-black {
+    color: #000000;
 }
 

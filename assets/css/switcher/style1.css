@@ -1,94 +1,95 @@
 #style-switcher h2 a { background: #15191C none repeat scroll 0 0 }
 
 /*START SCROLL TO TOP*/
-.topcontrol {background: #d62828 none repeat scroll 0 0;}
+.topcontrol {background: #fb6107 none repeat scroll 0 0;}
 /*END SCROLL TO TOP*/
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #d62828 !important;
+    color: #fb6107 !important;
     background-color: transparent;
 }
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:hover,
 .navbar-default .navbar-nav>.open>a:focus {
-    color: #d62828 !important;
+    color: #fb6107 !important;
     background-color: transparent;
 }
 
-.menu-top li a:hover { color: #d62828!important }
+.menu-top li a:hover { color: #fb6107!important }
 
-.navbar-default.menu-shrink li a:hover { color: #d62828 !important }
-.navbar-default .navbar-toggle .icon-bar { background-color: #d62828 }
+.navbar-default.menu-shrink li a:hover { color: #fb6107 !important }
+.navbar-default .navbar-toggle .icon-bar { background-color: #fb6107 }
 
 
-.section-title span {background: #d62828 none repeat scroll 0 0;}
+.section-title span {background: #fb6107 none repeat scroll 0 0;}
 
 .btn-home-bg {background: #fb6107 none repeat scroll 0 0;border: 2px solid #fb6107; font-weight: bold; }
 
-.about_single i {background: #d62828;border: 2px solid #d62828;}
+.about_single i {background: #fb6107;border: 2px solid #fb6107;}
 
-.about_single:hover i {color: #d62828;border: 2px solid #d62828;}
+.about_single:hover i {color: #fb6107;border: 2px solid #fb6107;}
 
-.about_single span {background: #d62828 none repeat scroll 0 0;}
+.about_single span {background: #fb6107 none repeat scroll 0 0;}
 
-.about_single:hover h4 { color: #d62828 }
+.about_single:hover h4 { color: #fb6107 }
 
-.single_feature i {background: #d62828 none repeat scroll 0 0;}
 
-.single_feature:hover {background: #fb6107 none repeat scroll 0 0;opacity: 0.4 ;}
+.single_feature i {background: #fb6107 none repeat scroll 0 0;}
 
-.single_feature:hover i {color: #d62828;}
+.single_feature_bg:hover {background: #fb6107 none repeat scroll 0 0}
 
-.service:hover {background:#d62828;border: 2px solid #d62828;}
+.single_feature:hover i {color: #fb6107;}
 
-.service:hover .icon {color: #d62828;}
+.service:hover {background:#fb6107;border: 2px solid #fb6107;}
+
+.service:hover .icon {color: #fb6107;}
 
 .our_work_menu ul li:hover,
-.our_work_menu ul li.active {background: #d62828 none repeat scroll 0 0;border-color: #d62828;}
+.our_work_menu ul li.active {background: #fb6107 none repeat scroll 0 0;border-color: #fb6107;}
 
-.sing_link_img a:hover {background: #d62828;}
+.sing_link_img a:hover {background: #fb6107;}
 
-.single_our_work:hover {background: #d62828;}
+.single_our_work:hover {background: #fb6107;}
 
-.btn-portfolio-bg {background: #d62828 none repeat scroll 0 0;}
+.btn-portfolio-bg {background: #fb6107 none repeat scroll 0 0;}
 
-.carousel-indicators li {border: 1px solid #d62828;background: #d62828;}
+.carousel-indicators li {border: 1px solid #ffffff;background: #ffffff;}
 
-.counter i {background: #d62828 none repeat scroll 0 0;border: 2px solid #d62828;}
+.counter i {background: #fb6107 none repeat scroll 0 0;border: 2px solid #fb6107;}
 
-.counter:hover i{background:none;color:#d62828;border:2px solid #d62828}
+.counter:hover i{background:none;color:#fb6107;border:2px solid #fb6107}
 
-.social > li:after {background: #d62828 none repeat scroll 0 0;}
+.social > li:after {background: #fb6107 none repeat scroll 0 0;}
 
-.team_text ul.social li a i:hover {border-color: #e8e8e9;background: #d62828;}
+.team_text ul.social li a i:hover {border-color: #e8e8e9;background: #fb6107;}
 
-.social > li:hover:after { background: #d62828 }
+.social > li:hover:after { background: #fb6107 }
 
-.progress-bar > span {background: #d62828 none repeat scroll 0 0;}
+.progress-bar > span {background: #fb6107 none repeat scroll 0 0;}
 
-.pricing-table-default:hover{ background: #d62828;}
+.pricing-table-default:hover{ background: #fb6107;}
 
-.pricing-head .price {background-color: #d62828;}
+.pricing-head .price {background-color: #fb6107;}
 
-.pricing-table-default:hover .price{color: #d62828;}
+.pricing-table-default:hover .price{color: #fb6107;}
 
-.pricing-table-default:hover .btn{color: #d62828;}
+.pricing-table-default:hover .btn{color: #fb6107;}
 
-.blog-text i { color: #d62828 }
+.blog-text i { color: #fb6107 }
 
-.blog-text span {color: #d62828;}
+.blog-text span {color: #fb6107;}
 
-.btn-blog-bg:hover{border: 1px solid #d62828;color:#d62828;}
+.btn-blog-bg:hover{border: 1px solid #fb6107;color:#fb6107;}
 
-.form-control:focus {border: 1px solid #d62828;}
+.form-control:focus {border: 1px solid #fb6107;}
 
-.btn-contact-bg {background: #d62828 none repeat scroll 0 0;}
+.btn-contact-bg {background: #fb6107 none repeat scroll 0 0;}
 
-.contact-address {background: #d62828 none repeat scroll 0 0;}
+.contact-address {background: #fb6107 none repeat scroll 0 0;}
 
-.copyright a {color: #d62828;}
+.copyright a {color: #fb6107;}
 
 .terezin-btn {
     background-color:#fc9611;
